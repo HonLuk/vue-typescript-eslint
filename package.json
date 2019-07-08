@@ -1,5 +1,5 @@
 {
-  "name": "vue-typescript-eslint",
+  "name": "eslint-config-vue-typescript-eslint",
   "version": "1.0.1",
   "description": "eslint config for vue with typescript",
   "main": "index.js",
