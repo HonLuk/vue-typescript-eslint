@@ -17,9 +17,18 @@
     "config"
   ],
   "author": "Honluk",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/HonLuk/vue-typescript-eslint/issues"
   },
-  "homepage": "https://github.com/HonLuk/vue-typescript-eslint#readme"
+  "homepage": "https://github.com/HonLuk/vue-typescript-eslint#readme",
+  "dependencies": {
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "eslint-config-alloy": "^2.0.5",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "install": "^0.13.0",
+    "npm": "^6.10.0"
+  }
 }
