@@ -11,7 +11,7 @@
 * install:
 
  ```shell
-npm i vue-typescript-eslint --save-dev
+npm i eslint-config-vue-typescript-eslint --save-dev
 ```
 
 * edit `.eslintrc.js` :
