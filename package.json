@@ -1,0 +1,25 @@
+{
+  "name": "vue-typescript-eslint",
+  "version": "1.0.0",
+  "description": "eslint config for vue with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HonLuk/vue-typescript-eslint.git"
+  },
+  "keywords": [
+    "vue",
+    "typescript",
+    "eslint",
+    "config"
+  ],
+  "author": "Honluk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HonLuk/vue-typescript-eslint/issues"
+  },
+  "homepage": "https://github.com/HonLuk/vue-typescript-eslint#readme"
+}
