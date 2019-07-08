@@ -23,6 +23,24 @@ module.exports = {
 };
 ```
 
+* edit `shims-tsx.d.ts`:
+
+```ts
+import Vue, { VNode } from "vue";
+
+declare global {
+  namespace JSX {
+    /* eslint-disable */
+        interface Element extends VNode {}
+        interface ElementClass extends Vue {}
+        interface IntrinsicElements {
+            [elem: string]: any;
+        }
+    }
+}
+
+```
+
 ## vscode setting
 
 * install extension [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) & [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
