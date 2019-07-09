@@ -23,6 +23,27 @@ module.exports = {
 };
 ```
 
+* You can customize the rules:
+
+```js
+module.exports = {
+  extends: [
+    "vue-typescript-eslint"
+  ],
+  rules:{
+      //some rules here,such as:
+      // 'indent': [
+       //     'error',
+       //     2,
+       //     {
+       //         SwitchCase: 1,
+       //         flatTernaryExpressions: true
+       //     }
+      // ],
+  }
+};
+```
+
 * edit `shims-tsx.d.ts`:
 
 ```ts
@@ -41,7 +62,8 @@ declare global {
 
 ```
 
-## vscode setting
+
+## Vscode Setting
 
 * install extension [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) & [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
