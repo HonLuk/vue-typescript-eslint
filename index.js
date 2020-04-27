@@ -14,8 +14,11 @@ module.exports = {
       "error",
       { jsxBracketSameLine: true, htmlWhitespaceSensitivity: "ignore" },
     ],
+    "no-useless-catch": "off",
+    "no-unused-vars": "off",
     "no-implicit-coercion": "off",
     "no-empty": "off",
+    "no-prototype-builtins": "off",
     "vue/require-valid-default-prop": "off",
     "vue/require-prop-types": "off",
     "vue/require-default-prop": "off",
@@ -25,7 +28,9 @@ module.exports = {
     "@typescript-eslint/explicit-member-accessibility": "off", //类访问修饰符
     "@typescript-eslint/member-ordering": "off", //排序
     "@typescript-eslint/no-parameter-properties": "off",
-    "@typescript-eslint/no-this-alias": "off",
+    "@typescript-eslint/no-this-alias": "off", //允许this赋值给变量
+    "@typescript-eslint/method-signature-style": "off", //风格
+    "@typescript-eslint/no-require-imports": "off", //允许require
   },
   parserOptions: {
     parser: "@typescript-eslint/parser",
