@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vue-typescript-eslint",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "eslint config for vue with typescript",
   "main": "index.js",
   "scripts": {
@@ -23,13 +23,12 @@
   },
   "homepage": "https://github.com/HonLuk/vue-typescript-eslint#readme",
   "dependencies": {
-    "@vue/eslint-config-typescript": "^5.0.1",
-    "eslint": "^6.7.2",
-    "eslint-config-alloy": "^3.4.0",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-vue": "^6.0.1",
-    "install": "^0.13.0",
-    "npm": "^6.13.3"
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint-config-alloy": "^3.7.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^6.2.2",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0"
   }
 }
