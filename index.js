@@ -1,11 +1,11 @@
 module.exports = {
   extends: [
-    "eslint-config-alloy/typescript",
+    require.resolve("eslint-config-alloy/typescript.js"),
     "plugin:vue/essential",
     "plugin:prettier/recommended",
     "eslint:recommended",
-    "prettier/@typescript-eslint",
-    "@vue/typescript",
+    require.resolve("eslint-config-prettier/@typescript-eslint.js"),
+    require.resolve("@vue/eslint-config-typescript/index.js"),
   ],
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
