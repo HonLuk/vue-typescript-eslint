@@ -7,6 +7,14 @@ module.exports = {
     require.resolve("eslint-config-prettier/@typescript-eslint.js"),
     require.resolve("@vue/eslint-config-typescript/index.js"),
   ],
+  overrides: [
+    {
+      files: ["*.js", "*.jsx"],
+      rules: {
+        "@typescript-eslint/prefer-optional-chain": "off",
+      },
+    },
+  ],
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
