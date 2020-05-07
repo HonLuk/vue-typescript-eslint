@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     node: true,
+    document: true,
   },
   extends: [
     require.resolve("eslint-config-alloy/typescript.js"),
