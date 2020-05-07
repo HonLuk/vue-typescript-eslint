@@ -1,4 +1,8 @@
 module.exports = {
+  env: {
+    browser: true,
+    node: true,
+  },
   extends: [
     require.resolve("eslint-config-alloy/typescript.js"),
     "plugin:vue/essential",
