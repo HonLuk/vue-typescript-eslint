@@ -27,6 +27,7 @@ module.exports = {
     "no-implicit-coercion": "off",
     "no-empty": "off",
     "no-prototype-builtins": "off",
+    "require-atomic-updates": "off",
     "vue/require-valid-default-prop": "off",
     "vue/require-prop-types": "off",
     "vue/require-default-prop": "off",
