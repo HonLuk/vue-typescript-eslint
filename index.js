@@ -11,6 +11,7 @@ module.exports = {
     require.resolve("eslint-config-prettier/@typescript-eslint.js"),
     require.resolve("@vue/eslint-config-typescript/index.js"),
   ],
+  plugins: ["unused-imports"],
   overrides: [
     {
       files: ["*.js", "*.jsx"],
@@ -44,6 +45,9 @@ module.exports = {
     "@typescript-eslint/no-this-alias": "off", //允许this赋值给变量
     "@typescript-eslint/method-signature-style": "off", //风格
     "@typescript-eslint/no-require-imports": "off", //允许require
+    "@typescript-eslint/no-unused-vars": "off",
+    "unused-imports/no-unused-imports-ts": "error",
+    "unused-imports/no-unused-vars-ts": "off",
   },
   parserOptions: {
     parser: "@typescript-eslint/parser",
