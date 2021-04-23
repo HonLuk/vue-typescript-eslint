@@ -25,7 +25,11 @@ module.exports = {
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
     "prettier/prettier": [
       "error",
-      { jsxBracketSameLine: true, htmlWhitespaceSensitivity: "ignore" },
+      {
+        jsxBracketSameLine: true,
+        htmlWhitespaceSensitivity: "ignore",
+        trailingComma: "none",
+      },
     ],
     "no-useless-catch": "off",
     "no-unused-vars": "off",
