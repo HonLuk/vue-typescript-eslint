@@ -52,6 +52,8 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": "off",
     "unused-imports/no-unused-imports-ts": "error",
     "unused-imports/no-unused-vars-ts": "off",
+    "@typescript-eslint/no-loss-of-precision": "error", //eslint 7.1 required
+    "@typescript-eslint/no-duplicate-imports": "error", //eslint 7.1 required
   },
   parserOptions: {
     parser: "@typescript-eslint/parser",
