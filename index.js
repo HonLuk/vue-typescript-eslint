@@ -1,24 +1,24 @@
 module.exports = {
   env: {
     browser: true,
-    node: true,
+    node: true
   },
   extends: [
     require.resolve("eslint-config-alloy/typescript.js"),
     "plugin:vue/essential",
     "plugin:prettier/recommended",
     "eslint:recommended",
-    require.resolve("eslint-config-prettier/@typescript-eslint.js"),
-    require.resolve("@vue/eslint-config-typescript/index.js"),
+    "prettier",
+    require.resolve("@vue/eslint-config-typescript/index.js")
   ],
   plugins: ["unused-imports"],
   overrides: [
     {
       files: ["*.js", "*.jsx"],
       rules: {
-        "@typescript-eslint/prefer-optional-chain": "off",
-      },
-    },
+        "@typescript-eslint/prefer-optional-chain": "off"
+      }
+    }
   ],
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
@@ -26,10 +26,12 @@ module.exports = {
     "prettier/prettier": [
       "error",
       {
+        arrowParens: "avoid",
+        trailingComma: "none",
         jsxBracketSameLine: true,
         htmlWhitespaceSensitivity: "ignore",
-        trailingComma: "none",
-      },
+        printWidth: 160
+      }
     ],
     "no-useless-catch": "off",
     "no-unused-vars": "off",
@@ -53,9 +55,9 @@ module.exports = {
     "unused-imports/no-unused-imports-ts": "error",
     "unused-imports/no-unused-vars-ts": "off",
     "@typescript-eslint/no-loss-of-precision": "error", //eslint 7.1 required
-    "@typescript-eslint/no-duplicate-imports": "error", //eslint 7.1 required
+    "@typescript-eslint/no-duplicate-imports": "error" //eslint 7.1 required
   },
   parserOptions: {
-    parser: "@typescript-eslint/parser",
-  },
+    parser: "@typescript-eslint/parser"
+  }
 };
