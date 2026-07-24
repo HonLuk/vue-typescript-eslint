@@ -28,7 +28,7 @@ module.exports = {
       {
         arrowParens: "avoid",
         trailingComma: "none",
-        jsxBracketSameLine: true,
+        jsxBracketSameLine: false,
         htmlWhitespaceSensitivity: "ignore",
         printWidth: 160
       }

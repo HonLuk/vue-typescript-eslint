@@ -1,3 +1,6 @@
 module.exports = {
-  extends: ["./index.js"]
+  extends: ["./index.js"],
+  rules: {
+    "comma-dangle": ["error", "never"]
+  }
 };

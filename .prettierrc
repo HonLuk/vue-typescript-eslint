@@ -1,0 +1,6 @@
+{
+    "arrowParens": "avoid",
+    "trailingComma": "none",
+    "htmlWhitespaceSensitivity": "ignore",
+    "printWidth": 160
+}
